@@ -5,14 +5,15 @@ A simple example of browser automation test with Gauge and Selenide
 You need to install Gauge and a Gauge Java plugin. 
 See http://getgauge.io/documentation/user/current/getting_started/download_and_install.html.
 
-After you successfully install Gauge, run `gauge -v`.
+After you successfully install Gauge, run:
 ```
-$ gauge -v                                                                                                                                                                                                         jdk1.8.0_65 ruby-2.1.8
-Gauge version: 0.4.0
+$ gauge --install java
+$ gauge --version                                                                                                                                                                                                         jdk1.8.0_65 ruby-2.1.8
+Gauge version: 0.6.0
 
 Plugins
 -------
-java (0.4.0)
+java (0.5.0)
 ```
 
 ## Usage
